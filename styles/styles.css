@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor-branca: #FFFFFF;
+
+    --cor-cinza: #667085;
+    --cor-cinza-escuro: #3A404E;
+    --cor-vermelha: #8E2424;
+
+    --fonte-Inter: "Inter", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--cor-branca);
+    font-family: var(--fonte-Inter);
+    color: var(--cor-cinza);
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 6rem;
+}
+.navbar__logo {
+    display: flex;
+    gap: 0.5rem;
+}
+.navbar__logo-titulo {
+    font-size: 1.125rem;
+    color: var(--cor-cinza-escuro);
+}
+.navbar__menu {
+    display: flex;
+    gap: 2rem;
+}
+.navbar__menu-links {
+    text-decoration: none;
+    color: var(--cor-cinza);
+}
+.navbar__botoes-laterais {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.navbar__botao {
+    text-decoration: none;
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.5rem;
+}
+.navbar__botao-entrar{
+    color: var(--cor-cinza);
+}
+.navbar__botao-cadastrar {
+    background-color: var(--cor-vermelha);
+    color: var(--cor-branca);
+
+}
