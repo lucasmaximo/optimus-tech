@@ -6,6 +6,7 @@
     --cor-cinza: #667085;
     --cor-cinza-escuro: #3A404E;
     --cor-vermelha: #8E2424;
+    --cor-quase-preto: #101828;
 
     --fonte-Inter: "Inter", sans-serif;
 }
@@ -23,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem 6rem;
+    padding: 1rem 4rem;
 }
 .navbar__logo {
     display: flex;
@@ -57,5 +58,24 @@ body {
 .navbar__botao-cadastrar {
     background-color: var(--cor-vermelha);
     color: var(--cor-branca);
-
+}
+.cabecalho {
+    padding: 7rem 22rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho__descricao {
+    font-weight: 600;
+    color: var(--cor-vermelha);
+}
+.cabecalho__titulo {
+    color: var(--cor-quase-preto);
+    font-weight: 600;
+    font-size: 3rem;
+}
+.cabecalho__texto {
+    color: var(--cor-cinza);
+    font-weight: 500;
+    font-size: 1.25rem;
 }
