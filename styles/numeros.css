@@ -1,0 +1,27 @@
+.nossos__numeros {
+    padding: 0 6rem 5rem 6rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.numeros {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.numeros__numero {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--cor-vermelha);
+    padding-bottom: 1.5rem;
+}
+.numeros__titulo {
+    font-size: 1.125rem;
+    color: var(--cor-quase-preto);
+    padding-bottom: 1rem;
+}
+.numeros__texto {
+    color: var((--cor-cinza));
+    font-weight: 400;
+    line-height: 130%;
+}

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('reset.css');
+@import url('header.css');
+@import url('numeros.css');
 
 :root {
     --cor-branca: #FFFFFF;
@@ -18,64 +21,4 @@ body {
     font-family: var(--fonte-Inter);
     color: var(--cor-cinza);
     font-weight: 500;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1rem 4rem;
-}
-.navbar__logo {
-    display: flex;
-    gap: 0.5rem;
-}
-.navbar__logo-titulo {
-    font-size: 1.125rem;
-    color: var(--cor-cinza-escuro);
-}
-.navbar__menu {
-    display: flex;
-    gap: 2rem;
-}
-.navbar__menu-links {
-    text-decoration: none;
-    color: var(--cor-cinza);
-}
-.navbar__botoes-laterais {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-.navbar__botao {
-    text-decoration: none;
-    padding: 0.625rem 1.125rem;
-    border-radius: 0.5rem;
-}
-.navbar__botao-entrar{
-    color: var(--cor-cinza);
-}
-.navbar__botao-cadastrar {
-    background-color: var(--cor-vermelha);
-    color: var(--cor-branca);
-}
-.cabecalho {
-    padding: 7rem 22rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-.cabecalho__descricao {
-    font-weight: 600;
-    color: var(--cor-vermelha);
-}
-.cabecalho__titulo {
-    color: var(--cor-quase-preto);
-    font-weight: 600;
-    font-size: 3rem;
-}
-.cabecalho__texto {
-    color: var(--cor-cinza);
-    font-weight: 500;
-    font-size: 1.25rem;
 }
