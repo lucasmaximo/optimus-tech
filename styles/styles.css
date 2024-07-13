@@ -2,6 +2,7 @@
 @import url('reset.css');
 @import url('header.css');
 @import url('numeros.css');
+@import url('talentos.css');
 
 :root {
     --cor-branca: #FFFFFF;
