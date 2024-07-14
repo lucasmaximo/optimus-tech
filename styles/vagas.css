@@ -1,0 +1,27 @@
+.vagas {
+    margin: 0 25rem;
+}
+.vagas__tipo {
+    padding: 0 0 3rem 0;
+}
+.vagas__tipo__titulo {
+    font-size: 1.25rem;
+    color: var(--cor-quase-preto);
+}
+.vagas__tipo__vaga{
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border: 0.0625rem solid var(--cor-cinza-alternativo);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.vagas__tipo__nome {
+    font-size: 1.125rem;
+    color: var(--cor-quase-preto);
+}
+.vagas__tipo__descricao {
+    color: var(--cor-cinza);
+    padding-right: 1.5rem;
+}

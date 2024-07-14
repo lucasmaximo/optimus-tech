@@ -3,12 +3,14 @@
 @import url('header.css');
 @import url('numeros.css');
 @import url('talentos.css');
+@import url('vagas.css');
 
 :root {
     --cor-branca: #FFFFFF;
 
     --cor-cinza: #667085;
     --cor-cinza-escuro: #3A404E;
+    --cor-cinza-alternativo: #EAECF0;
     --cor-vermelha: #8E2424;
     --cor-quase-preto: #101828;
 
