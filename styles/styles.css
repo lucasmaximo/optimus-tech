@@ -4,6 +4,7 @@
 @import url('numeros.css');
 @import url('talentos.css');
 @import url('vagas.css');
+@import url('colaboradores.css');
 
 :root {
     --cor-branca: #FFFFFF;
